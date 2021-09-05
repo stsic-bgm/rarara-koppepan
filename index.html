@@ -44,6 +44,52 @@
         <p>らららコッペパン【作業用BGM】</p>
     </header>
     <main>
+        <link href="https://pocopota.github.io/my-recaptcha/css/recaptcha.min.css" rel="stylesheet"> <!-- CSS -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Remix icon -->
+    <div id="recaptcha-rc">
+        <input type="hidden" value="false" id="recaptcha-judg-rc">
+        <div id="first-check-rc">
+            <div id="check-rc"></div>
+            <div id="load-rc"></div>
+            <div id="success-rc"><i class="ri-check-line"></i></div>
+            <div id="i-am-not-robot-rc">私はロボットではありません</div>
+            <div id="logo-rc">
+                <img src="images/logo.png">
+                <div id="name-rc">reCAPTCHA</div>
+            </div>
+        </div>
+        <div id="select-images-rc">
+            <div id="title-rc">
+                <span>intel</span>の画像をすべて選択してください
+            </div>
+            <div id="images-rc">
+                <label><input type="checkbox" value="1" id="check-rc-1" class="check-rc"><img src="images/in1.png"
+                        id="check-rc-1-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-2" class="check-rc"><img src="images/de.png"
+                        id="check-rc-2-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-3" class="check-rc"><img src="images/ry1.png"
+                        id="check-rc-3-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-4" class="check-rc"><img src="images/ry2.png"
+                        id="check-rc-4-img"></label>
+                <label><input type="checkbox" value="1" id="check-rc-5" class="check-rc"><img src="images/in2.png"
+                        id="check-rc-5-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-6" class="check-rc"><img src="images/me1.png"
+                        id="check-rc-6-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-7" class="check-rc"><img src="images/sn1.png"
+                        id="check-rc-7-img"></label>
+                <label><input type="checkbox" value="1" id="check-rc-8" class="check-rc"><img src="images/in3.png"
+                        id="check-rc-8-img"></label>
+                <label><input type="checkbox" value="0" id="check-rc-9" class="check-rc"><img src="images/ry3.png"
+                        id="check-rc-9-img"></label>
+            </div>
+            <div id="again-rc">正しい画像を選択してください。</div>
+            <div id="decision-rc">
+                <div id="decision-btn-rc">確認</div>
+            </div>
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://pocopota.github.io/my-recaptcha/script/recaptcha.min.js" type="text/javascript"></script> <!-- JavaScript -->
         <p id="introduction">このサイトは勉強や作業時に使用できるBGM「らららコッペパン」の再生専用サイトです。<br>下からご自身の時間に最適なものを選びBGMとしてご利用してください。</p>
         <section id="music">
             <div class="music-content">
